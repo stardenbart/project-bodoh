@@ -1,0 +1,167 @@
+@font-face {
+  font-family: SF Pro Display;
+  src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px auto;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(27, 26, 26, 0.82), rgba(27, 26, 26, 0.5)),
+    url(../images/background.jpg), center/cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 100px;
+  border: 5px solid white;
+  margin-bottom: -130px;
+}
+
+header {
+  margin: 2rem auto;
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  width: 500px;
+  color: white;
+  text-align: center;
+  background-color: none;
+  border: 5px solid white;
+  border-radius: 50px;
+  box-shadow: 4px 4px 5px white, 0.2;
+  padding: 100px 50px 50px 50px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+span {
+  color: goldenrod;
+}
+p {
+  font-family: "Pacifico";
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+ol {
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+#container {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+#random-style {
+  text-align: center;
+}
+
+#back-anchor {
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+#back-anchor:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+#button-group {
+  margin-top: 5rem;
+}
+
+.btn {
+  border-radius: 6px;
+  font-family: "Pacifico", cursive;
+  font-size: 1rem;
+  margin: 0 1rem;
+  padding: 1rem 5rem;
+}
+
+.btn-warning {
+  color: white;
+  background-color: black;
+  border: 3px solid white;
+}
+
+.btn-outline-warning {
+  color: white;
+  border: 3px solid white;
+}
+
+.btn-warning:hover {
+  color: white;
+  background-color: black;
+  border: 3px solid goldenrod;
+}
+
+.btn-outline-warning:hover {
+  background-color: transparent;
+  border: 3px solid goldenrod;
+  color: white;
+}
+
+.btn-warning:focus {
+  color: white;
+  background-color: black;
+  border: 3px solid goldenrod;
+  box-shadow: none;
+}
+
+.btn.btn-outline-warning:focus {
+  border: 3px solid goldenrod;
+  color: white;
+  box-shadow: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Pacifico";
+}
+
+a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+  font-family: "Pacifico";
+}
+
+#closing a {
+  margin: 20px 0 0 0;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#closing a:hover {
+  color: goldenrod;
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-size: 15px;
+}
